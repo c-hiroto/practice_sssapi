@@ -37,7 +37,7 @@
         const handleClick = (e) => {
             e.preventDefault();
 
-            //クリックされたnavとそのdataを取得
+            //クリックされたカテゴリとそのデータを取得
             const $this = e.target;
             const targetVal = $this.dataset.tab;
             //クリックされたカテゴリに含まれる要素の数
