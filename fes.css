@@ -1,0 +1,25 @@
+.contents {
+    width: 100%;
+}
+.tab {
+    display: flex;
+}
+.tab-item {
+    margin-right: 4px;
+    background: #ccc;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px 5px 0 0;
+}
+.tab-item.clicked{
+    background: #000;
+    color: #fff;
+  }
+.tab-shops {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.tab-shops-item {
+    display: block;
+}
